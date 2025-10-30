@@ -17,7 +17,7 @@
 
 // ----------------------------------------------------------------------------------------
 
-// Object is a collection of key value pairs
+// Object is a collection of key-value pairs :
 
 // Making An Object :
 
@@ -38,11 +38,13 @@ console.log(student["fullName"]);*/ // Bracket Notation
 
 // Accessing Values From Object
 // Object.key        // Dot Notation
-// Object["key"]    // Bracket Notation
+// Object["key"]     // Bracket Notation
 
 // --------------------------------------------------------------------------------
 
 // Finding/Accessing Types Of Variables (// typeof)
+
+// Syntax :
 
 // typeof variableName
 
@@ -249,13 +251,13 @@ console.log(`a3 !== b3 is a ${a3 === b3} statement`) */
 
 // -------------------------------------------------------------------------
 
-// Ternary Operators :    ([condition] ? [true] : [false])
+// ---------------  Ternary Operators :    ([condition] ? [true] : [false])  --------------------
 
 // let age = prompt("Enter Your Age : ")
 
 // age >= 18 ? console.log("You can Enter") : console.log("You CANNOT Enter")
 
-// Practice  Question 1: ---------------------------
+// Practice Question : -------------------------
 
 // let num = prompt("Enter a Number :");
 
@@ -265,17 +267,55 @@ console.log(`a3 !== b3 is a ${a3 === b3} statement`) */
 //   console.log(num, "is not a multiple of 5");
 // }
 
-// Practice  Question 2: ---------------------------
+// Practice Question : -------------------------
+
+// let time = 17;
+// let greeting = time < 12 ? "Good Morning" : "Good Afternoon";
+// console.log(greeting);
+
+// Practice Question : -------------------------
+
+// let answer = prompt("Are you a student?", "yes").trim().toLowerCase();
+
+// let yesAnswers = ["yes", "y", "yeah", "yup", "yea", "yep", "yeh",];
+// let noAnswers = ["no", "n", "nope", "nah"];
+
+// let message = 
+//   yesAnswers.includes(answer)
+//   ? "You ARE a Student "
+//   : noAnswers.includes(answer)
+//   ? "You are NOT a Student "
+//   : "I didn't understand your answer ";
+
+// console.log(message);
+
+// Practice Question : -------------------------
+
+// let purchaseAmount = Number(prompt("Enter Your Purchase Amount ($): "));
+// let discount = purchaseAmount >= 210 ? 12 : 0;          // 12% discount if purchaseAmount >= 210
+// let total = purchaseAmount - (purchaseAmount * (discount / 100));
+// let message = `Your total amount is : $${total}`;
+
+// if (purchaseAmount == "" || purchaseAmount == null || isNaN(purchaseAmount) || purchaseAmount < 0 ){
+//   console.log("Invalid Input")   
+// }
+// else{
+//   console.log(message);
+// }
+
+// -------------------------------------------------------------------------------
+
+// Practice Question For Conditional Statement : ---------------------------
 
 // let marks = prompt("Enter Your Marks : ");
 // let grade;
 
 // if (marks >= 90 && marks <= 100) {
 //   grade = "A";
-//   console.log("According To Your Marks Your Grade is : " + grade);
+//   console.log(`Congratulations! You achieved ${grade} Grade.`);
 // } else if (marks >= 80 && marks < 90) {
 //   grade = "B";
-//   console.log("According To Your Marks Your Grade is : " + grade);
+//   console.log("Wow! Your Grade is : " + grade);
 // } else if (marks >= 70 && marks < 80) {
 //   grade = "C";
 //   console.log("According To Your Marks Your Grade is : " + grade);
@@ -296,7 +336,7 @@ console.log(`a3 !== b3 is a ${a3 === b3} statement`) */
 //   console.log("Please Enter Valid Marks");
 // }
 
-// Loops :
+// --------------------  Loops : --------------------
 
 // 1. For Loop
 // 2. While Loop
@@ -473,4 +513,7 @@ console.log(`a3 !== b3 is a ${a3 === b3} statement`) */
 
 // For-In Loop : (Used for Objects)
 
+// ----------------------------  Testing A Topic Of Array : -------------------------------------
 
+// let students = ["ahmed","ali","saad","asad","zain"]
+// console.log(students[4/2])
