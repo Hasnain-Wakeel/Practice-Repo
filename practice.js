@@ -33,10 +33,8 @@ console.log(student);
 console.log(student.fullName);      // Dot Notation
 console.log(student["fullName"]);*/ // Bracket Notation
 
-
 // In Object , there are keys and values
 // key : value
-
 
 // Accessing Values From Object :
 
@@ -68,8 +66,8 @@ console.log(student["fullName"]);*/ // Bracket Notation
 
 // Exponentional Operator (**) // It acts like as a Power of a Number
 
-// let num = 2 ** 3;  // 2 ** 3 === 2 * 2 * 2 
-// console.log(num); 
+// let num = 2 ** 3;  // 2 ** 3 === 2 * 2 * 2
+// console.log(num);
 
 // ----------------------------------------------------------------------------------
 
@@ -283,7 +281,7 @@ console.log(`a3 !== b3 is a ${a3 === b3} statement`) */
 // let yesAnswers = ["yes", "y", "yeah", "yup", "yea", "yep", "yeh",];
 // let noAnswers = ["no", "n", "nope", "nah"];
 
-// let message = 
+// let message =
 //   yesAnswers.includes(answer)
 //   ? "You ARE a Student "
 //   : noAnswers.includes(answer)
@@ -300,7 +298,7 @@ console.log(`a3 !== b3 is a ${a3 === b3} statement`) */
 // let message = `Your total amount is : $${total}`;
 
 // if (purchaseAmount == "" || purchaseAmount == null || isNaN(purchaseAmount) || purchaseAmount < 0 ){
-//   console.log("Invalid Input")   
+//   console.log("Invalid Input")
 // }
 // else{
 //   console.log(message);
@@ -337,6 +335,36 @@ console.log(`a3 !== b3 is a ${a3 === b3} statement`) */
 //   console.log("Please Enter Marks");
 // } else {
 //   console.log("Please Enter Valid Marks");
+// }
+
+// ---------------------------- SWITCH CASE ----------------------------
+
+// const day = Number(prompt("Enter a number between 1 to 7 : ", 1));
+
+// switch (day) {
+//   case 1:
+//     console.log("It is Monday!");
+//     break;
+//   case 2:
+//     console.log("It is Tuesday!");
+//     break;
+//   case 3:
+//     console.log("It is Wednesday!");
+//     break;
+//   case 4:
+//     console.log("It is Thursday!");
+//     break;
+//   case 5:
+//     console.log("It is Friday!");
+//     break;
+//   case 6:
+//     console.log("It is Saturday!");
+//     break;
+//   case 7:
+//     console.log("It is Sunday!");
+//     break;
+//   default:
+//     console.log(`Please Enter a Valid number between 1 to 7`);
 // }
 
 // --------------------  Loops : --------------------
