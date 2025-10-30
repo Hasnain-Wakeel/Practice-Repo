@@ -33,10 +33,13 @@ console.log(student);
 console.log(student.fullName);      // Dot Notation
 console.log(student["fullName"]);*/ // Bracket Notation
 
+
 // In Object , there are keys and values
 // key : value
 
-// Accessing Values From Object
+
+// Accessing Values From Object :
+
 // Object.key        // Dot Notation
 // Object["key"]     // Bracket Notation
 
@@ -63,17 +66,17 @@ console.log(student["fullName"]);*/ // Bracket Notation
 
 // ---------------------------------------------------------------------------------
 
-// Exponentional Operator (**)
+// Exponentional Operator (**) // It acts like as a Power of a Number
 
-// let num = 2 ** 3;
-// console.log(num);
+// let num = 2 ** 3;  // 2 ** 3 === 2 * 2 * 2 
+// console.log(num); 
 
 // ----------------------------------------------------------------------------------
 
-// Assignment Operators
+// Assignment Operators :
 
 // "=" assigns the value from left side to right side
-// That's Why we call "=" assignment operator
+// That's Why we call "=" , the assignment operator.
 
 // var a = 12;
 // var b = 17;
