@@ -339,6 +339,8 @@ console.log(`a3 !== b3 is a ${a3 === b3} statement`) */
 
 // ---------------------------- SWITCH CASE ----------------------------
 
+// --------- We use switch case when we want to check multiple conditions for a single variable ---------
+
 // const day = Number(prompt("Enter a number between 1 to 7 : ", 1));
 
 // switch (day) {
@@ -364,26 +366,26 @@ console.log(`a3 !== b3 is a ${a3 === b3} statement`) */
 //     console.log("It is Sunday!");
 //     break;
 //   default:
-//     console.log(`Please Enter a Valid number between 1 to 7`);
+//     console.log(`Please enter a valid Number between 1 to 7 !!!`);
 // }
 
-// --------------------  Loops : --------------------
+// -------------------------------------- LOOPS : --------------------------------------------
 
 // 1. For Loop
 // 2. While Loop
 // 3. Do While Loop
 
-// 1. For Loop :
+// ---------------- 1. For Loop : ----------------
 
-// let userName = prompt("Enter Your Name :")
-// let loopNumber = prompt("Type the number of times you'd like your name to be printed :")
-// loopNumber = Number(loopNumber)
+// let userName = prompt("Enter Your Name :");
+// let loopNumber = Number(prompt("Type the number of times you'd like your name to be printed :"));
+// // loopNumber = Number(loopNumber);
 
-// for (i = 1 ; i <= loopNumber ; i++  ){
-//   console.log(userName)
+// for (i = 1; i <= loopNumber; i++) {
+//   console.log(userName);
 // }
 
-// Prctice Question :
+// -------------  Prctice Question : ---------------
 
 // let firstNumber = Number(prompt("Enter a number from which I start sum of Numbers :"))
 // let lastNumber = Number(prompt("Enter a number where I can End the sum of Numbers : "))
@@ -394,12 +396,8 @@ console.log(`a3 !== b3 is a ${a3 === b3} statement`) */
 // }
 // console.log("Final sum is" , sum)
 
-// let firstNumber = Number(
-//   prompt("Enter a number from which I start sum of Numbers :")
-// );
-// let lastNumber = Number(
-//   prompt("Enter a number where I can End the sum of Numbers : ")
-// );
+// let firstNumber = Number(prompt("Enter a number from which I start sum of Numbers :"));
+// let lastNumber = Number(prompt("Enter a number where I can End the sum of Numbers : "));
 // let sum = 0;
 // let expression = "";
 
@@ -414,7 +412,7 @@ console.log(`a3 !== b3 is a ${a3 === b3} statement`) */
 //   }
 // }
 
-// // sirf akhri result print hoga
+// // // sirf akhri result print hoga
 // console.log(expression + " = " + sum);
 
 // GPT's Answer 1 :
