@@ -546,3 +546,10 @@ console.log(`a3 !== b3 is a ${a3 === b3} statement`) */
 
 // let students = ["ahmed","ali","saad","asad","zain"]
 // console.log(students[4/2])
+
+
+// ----------------------
+
+// console.log([] + []);
+// console.log("10" > "9");
+
